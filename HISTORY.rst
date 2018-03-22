@@ -7,6 +7,9 @@ History
 - Add support for channel binding tokens (assumes pykerberos support >= 1.2.1)
 - Add support for kerberos message encryption (assumes pykerberos support >= 1.2.1)
 - Misc CI/test fixes
+- Switched to PyKerberos 1.1.14 and WinKerberos 0.6.0, implemented support for SPNEGO authentication
+  (just an additional parameter to a pykerberos/winkerberos function call).
+
 
 0.11.0: 2016-11-02
 ------------------
